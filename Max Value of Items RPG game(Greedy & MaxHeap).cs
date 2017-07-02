@@ -13,6 +13,14 @@ n: # of Slots
 items: Array of items types, one for each item in the room
 itemInfo: Array of structors, one for each unique item type
 */
+public class itemInfo
+{
+     public string name;                       //Name of Item
+     public int maximumStackSize;             //The maximum item that put into a slot
+     public int value;                        //Single item's value  
+     
+     .........
+}
 
 
 #region Naive Greedy
