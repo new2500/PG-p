@@ -340,14 +340,14 @@ public int Calculate(string input)
           }
      }
      numStack.Push(num); //Push last number
-     while(opStack.Any())          Calculate the rest
+     while(opStack.Any())          //Calculate the rest
           helper(numStack, opStack);
 
      return numStack.Pop();
 }
 
 //Helper for Calculate
-private void(Stack<int> numStack, Stack<char> opStack)
+private void helper(Stack<int> numStack, Stack<char> opStack)
 {
      int b = numStack.Pop();
      int a = numStack.Pop();
