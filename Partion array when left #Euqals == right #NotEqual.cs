@@ -11,11 +11,11 @@ Then we can add the corresponding index into left and right list. Basically we j
 Then we can found whether the length of left equal to the length of right, if equal, just return the last element of right list, because we add the index into right from the tail. so the list element is the first index of the right part.
 If not, return -1, means we can't find that element. 
 
-
-Pass cases:	( 1 ,1 ,2 , 3),    			1
-            ( 1, 1, 2, 3, 1, 1, 1, 1),  1
-			(1,1,2,3,1),    			1
-            (2,1,1,2,3,1),  			1
+		 int[] nums			     target
+Pass cases:	(1,1,2,3),    				1
+            	(1,1,2,3,1,1,1,1),	  		1
+		(1,1,2,3,1),    			1
+            	(2,1,1,2,3,1),  			1
 */
 
         public int GetIndex(int[] nums, int target)
