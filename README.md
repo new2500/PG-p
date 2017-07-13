@@ -1,4 +1,4 @@
 # PG-p
 On some interesting puzzles
 
-Feel free to use as an reference. And start it if you like it.
+Feel free to use them as references. And star this repo if you like it.
