@@ -49,5 +49,6 @@ Pass cases:	(1,1,2,3),    				1
 #region Follow up ：可不可能有多个符合的index   答：不能		
 有四个相关的变量：xMet，nonXMet, xNotMet, nonXNotMet。其中xMet和nonXMet组成了扫过的部分，xNotMet和nonXNotMet组成了未扫过的部分。
 
-符合的条件则是：xMet = nonXNotMet。而这两个变量一个只能递增(xMet)，一个只能递减(nonXNotMet)，而且并不能同时不变，因为如果当前index值是x，index++之后xMet也+1；如果当前的index值不是x，index++之后nonXNotMet就-1。所以不能同时不变，就不能有多个符合的。
+符合的条件则是：xMet = nonXNotMet。而这两个变量一个只能递增(xMet)，一个只能递减(nonXNotMet)，而且并不能同时不变.
+因为如果当前index值是x，index++之后xMet也+1；如果当前的index值不是x，index++之后nonXNotMet就-1。所以不能同时不变，就不能有多个符合的。
 #endregion
